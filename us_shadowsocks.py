@@ -56,6 +56,8 @@ def getcontent(tag,p):
 
     data={"timeout":600,
           "method":_encry,
+		  "local_port":"1080",
+		  "local_address":"127.0.0.1",
           "password":password,
           "server_port":_port,
           "server":_ip}
